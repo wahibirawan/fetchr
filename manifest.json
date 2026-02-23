@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Fetchr - Image Downloader & Bulk Grabber",
+    "version": "1.0",
+    "description": "Quickly inspect, preview, and batch download high-res raster images (JPG, PNG, WebP) from any website. The ultimate asset puller tool.",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Fetchr - Download Images",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "downloads"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}

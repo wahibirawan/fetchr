@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fetchr - Image Downloader</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">Fetchr</h1>
+        <div class="actions">
+            <span id="image-count">...</span>
+            <select id="sort-filter" class="select-filter">
+                <option value="dom">DOM Order (Top first)</option>
+                <option value="size-desc">Size (Large - Small)</option>
+                <option value="size-asc">Size (Small - Large)</option>
+                <option value="type">Type</option>
+            </select>
+            <button id="download-all" class="btn primary">Download All</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div id="loading" class="fullscreen-message">
+            <div class="spinner"></div>
+            <p>Scanning page for images...</p>
+        </div>
+        <div id="no-images" class="fullscreen-message hidden">
+            <p>No images found on this page.</p>
+        </div>
+        <div id="image-grid" class="image-grid hidden"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
