@@ -28,6 +28,12 @@ Fetchr is a premium browser extension designed to inspect, preview, and batch-do
 4. Use the dropdown filter to sort the images.
 5. Click "Copy" to copy an image to the clipboard, "Save" to download an individual image, or "Download All" to grab everything at once.
 
+## Privacy Policy
+
+No data collected. We don't send any data out of your browser.
+
+MIT License. See `LICENSE` for more information.
+
 ## License
 
 MIT License. See `LICENSE` for more information.
